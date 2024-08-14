@@ -25,10 +25,10 @@ sudo chmod 777 /var/run/docker.sock
 ````
 $\color{green} \textbf{5. Build the image with TBDM API and run the container}$
 ````
-docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix
+docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
 docker run -d --name netflix -p 8081:80 netflix:latest
 ````
-$\color{green} \textbf{6. Host : pub_ip:8081}$
+${\color{green} \textbf{6. Host : pub_ip:8081}}$
 
 ![image](https://github.com/user-attachments/assets/5930247a-559a-4149-9f0f-effa41be5f5c)
 
