@@ -1,6 +1,6 @@
 # $\color{red} \textbf{Project : Netflix}$
 
-## ${\color{red} \textbf{Phase 1: Initial Setup and Deployment}$
+## ${\color{red} \textbf{Phase 1: Initial Setup and Deployment}}$
 
 ${\color{green} \textbf{1. Generate Token From TMDB}}$
 
