@@ -25,10 +25,10 @@ sudo chmod 777 /var/run/docker.sock
 ````
 $\color{green} \textbf{5. Build the image with TBDM API and run the container}$
 ````
-docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
+docker build --build-arg TMDB-V3-API-KEY=<your-api-key> -t netflix .
 docker run -d --name netflix -p 8081:80 netflix:latest
 ````
-${\color{green} \textbf{6. Host : pub_ip:8081}}$
+${\color{green} \textbf{6. Host : pub-ip:8081}}$
 
 ![image](https://github.com/user-attachments/assets/5930247a-559a-4149-9f0f-effa41be5f5c)
 
@@ -43,7 +43,7 @@ $\color{purple} \textbf{1. SonarQube for Code Testing with Direct pulling Image}
 ````
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ````
-$\color{purple} \textbf{ 2. To Access SonarQube : pub_ip:9000}$
+$\color{purple} \textbf{ 2. To Access SonarQube : pub-ip:9000}$
 
 $\color{red} \textbf{ NOTE : }$ SonarQube have by default username and password is admin.
 
@@ -81,7 +81,7 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 sudo apt-get update
 sudo apt-get install jenkins
 ````
-$\color{green} \textbf{2. To Access Jenkins : pub_ip:8080}$
+$\color{green} \textbf{2. To Access Jenkins : pub-ip:8080}$
 - Add initial password
 - Create user with password
 - Start using jenkins
