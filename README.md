@@ -34,7 +34,7 @@ ${\color{green} \textbf{6. Host : pub-ip:8081}}$
 
 
 
-## ${\color{red} \textbf{Phase 2: Security}$
+## ${\color{red} \textbf{Phase 2: Security}}$
 
 ### $\color{green} \textbf{Install SonarQube and Trivy for Scan }$
 
@@ -66,7 +66,7 @@ $\color{purple} \textbf{5. Scan Netflix Image}$
 trivy image <imageid>
 ````
 
-## ${\color{red} \textbf{Phase 3: CI/CD Setup}$
+## ${\color{red} \textbf{Phase 3: CI/CD Setup}}$
 
 $\color{green} \textbf{1. Install Jenkins for Automate Deployment}$
 ````
