@@ -49,7 +49,7 @@ $\color{red} \textbf{ NOTE : }$ SonarQube have by default username and password 
 
 
 $\color{purple} \textbf{ 3. Generate Token in SonarQube; it will need us in jenkins }$
-- My Account -> Security -> Token name -> Generate Token -> Copy that Token
+- My Account  → Security → Token name  → Generate Token → Copy that Token
 
 
 $\color{purple} \textbf{ 4. Install Trivy for Scan Image}$
@@ -85,16 +85,17 @@ $\color{green} \textbf{2. To Access Jenkins : pub-ip:8080}$
 - Add initial password
 - Create user with password
 - Start using jenkins
-$\color{green} \textbf{2. Install Necessary Plugins}$
 
-Goto Manage Jenkins →Plugins → Available Plugins → Install below plugins
+$\color{green} \textbf{3. Install Necessary Plugins}$
+
+Goto Manage Jenkins → Plugins → Available Plugins → Install below plugins
 
 1. Eclipse Temurin Installer 
 2. SonarQube Scanner 
 3. NodeJs 
 4. Email Extension 
 
-$\color{green} \textbf{3. Set up Plugins in Tool}$
+$\color{green} \textbf{4. Set up Plugins in Tool}$
 
-Goto Manage Jenkins → Tool
+Goto Manage Jenkins → Tool → 
 
