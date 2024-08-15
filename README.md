@@ -1,4 +1,4 @@
-# $$\color{red} \textbf{Project : Netflix}$$
+# $${\color{red} \textbf{Project : Netflix}}$$
 
 ## ${\color{red} \textbf{Phase 1: Initial Setup and Deployment}}$
 
