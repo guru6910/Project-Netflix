@@ -98,4 +98,7 @@ Goto Manage Jenkins → Plugins → Available Plugins → Install below plugins
 $\color{green} \textbf{4. Set up Plugins in Tool}$
 
 Goto Manage Jenkins → Tool → 
+- Add Node name : node16 / version : 16.16.0
+- Add java name : jdk17 / version : 17.0.1+12 (automatic installation)
+- Add SonarQube Scanner Name : sonar-scanner 
 
