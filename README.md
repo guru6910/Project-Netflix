@@ -1,5 +1,10 @@
 # $${\color{red} \textbf{Project : Netflix}}$$
 
+API KEY 
+````
+079c53c7a0369363ae29016c9c3b29f6
+````
+
 ## ${\color{red} \textbf{Phase 1: Initial Setup and Deployment}}$
 
 ${\color{green} \textbf{1. Generate Token From TMDB}}$
