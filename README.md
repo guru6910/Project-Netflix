@@ -369,7 +369,7 @@ scrape_configs:
     static_configs:
       - targets: ["3.83.236.123:8080"]
 ````
-$\color{red} \textbf{NOTE :}$ Add Jenkins_ip:jenkins_port (pub-ip:8080)
+$\color{red} \textbf{NOTE :}$ Add Jenkins-ip:jenkins-port (pub-ip:8080)
 
 $\color{green} \textbf{7. Check the validity of the configuration file.}$
 ````
@@ -424,8 +424,13 @@ Grafana will prompt you to change the default password for security reasons. Fol
 
 $\color{green} \textbf{8. Add Prometheus data source (on default)}$ 
 
+- Add prometheus → click on data source
+- on default option
+- Add URL of Prometheus → pub-ip:9090
+- save and test
+
 $\color{green} \textbf{9. Import Dashboard}$
 - Import Dashboard
 - id : 1860 → Load
-- select promotheus data source
+- Add promotheus data source (default)
 - Apply 
