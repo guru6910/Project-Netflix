@@ -229,7 +229,7 @@ $\color{green} \textbf{4. Create a systemd unit configuration file for Prometheu
 ````
 sudo nano /etc/systemd/system/prometheus.service
 ````
-$\color{green} \textbf{5. Add the following content to the `prometheus.service` file:}$
+$\color{green} \textbf{5. Add the following content to the prometheus.service file:}$
 ````
 [Unit]
 Description=Prometheus
@@ -256,7 +256,7 @@ ExecStart=/usr/local/bin/prometheus \
 [Install]
 WantedBy=multi-user.target
 ````
-$\color{brown} \textbf{Here's a brief explanation of the key parts in this `prometheus.service` file:}$
+$\color{brown} \textbf{Here's a brief explanation of the key parts in this prometheus.service file:}$
 
    - `User` and `Group` specify the Linux user and group under which Prometheus will run.
 
@@ -274,7 +274,7 @@ sudo systemctl start prometheus
 ````
 sudo systemctl status prometheus
 ````
-$\color{green} \textbf{7. Access Prometheous : <pub_ip>:9090}$
+$\color{green} \textbf{7. Access Prometheous : <pub-ip>:9090}$
 
 ## $\color{brown} \textbf{Install Node Exporter}$
 
@@ -293,7 +293,7 @@ $\color{green} \textbf{3. Create a systemd unit configuration file for Node Expo
 ````
 sudo nano /etc/systemd/system/node_exporter.service
 ````
-$\color{green} \textbf{4. Add the following content to the `node_exporter.service` file:}$
+$\color{green} \textbf{4. Add the following content to the node_exporter.service file:}$
 ````
 [Unit]
 Description=Node Exporter
@@ -329,7 +329,7 @@ sudo nano /etc/prometheus/prometheus.yml
 `prometheus.yml`
 ````
 ````
-$\color{red} \textbf{NOTE :}$ Add Jenkins_ip:jenkins_port (pub_ip:8080)
+$\color{red} \textbf{NOTE :}$ Add Jenkins_ip:jenkins_port (pub-ip:8080)
 
 $\color{green} \textbf{7. Check the validity of the configuration file.}$
 ````
