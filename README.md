@@ -95,7 +95,7 @@ Goto Manage Jenkins → Plugins → Available Plugins → Install below plugins
 3. NodeJs 
 4. Email Extension 
 
-$\color{green} \textbf{4. Set up Plugins in Tool}$
+### $\color{green} \textbf{4. Set up Plugins in Tool}$
 
 Goto Manage Jenkins → Tool → 
 - Add Node name : node16 / version : 16.16.0
