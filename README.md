@@ -436,4 +436,4 @@ $\color{green} \textbf{9. Import Dashboard}$
 - Import Dashboard
 - id : 1860 → Load
 - Add promotheus data source (default)
-- Apply 
+- Import
