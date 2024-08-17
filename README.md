@@ -421,3 +421,12 @@ $\color{red} \textbf{The default username is "admin," and the default password i
 $\color{green} \textbf{7. Change the Default Password:}$
 
 Grafana will prompt you to change the default password for security reasons. Follow the prompts to set a new password.
+
+$\color{green} \textbf{8. Add Prometheus data source (ON DEFAULT)}$
+- 
+
+$\color{green} \textbf{9. Import Dashboard}$
+- Import Dashboard
+- id : 1860 → Load
+- select promotheus data source
+- Apply 
