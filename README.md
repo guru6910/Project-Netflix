@@ -36,23 +36,23 @@ ${\color{green} \textbf{6. Host : pub-ip:8081}}$
 
 ## ${\color{red} \textbf{Phase 2: Security}}$
 
-### $\color{green} \textbf{Install SonarQube and Trivy for Scan }$
+### $\color{purple} \textbf{Install SonarQube and Trivy for Scan }$
 
-$\color{purple} \textbf{1. SonarQube for Code Testing with Direct pulling Image}$
+$\color{green} \textbf{1. SonarQube for Code Testing with Direct pulling Image}$
 
 ````
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ````
-$\color{purple} \textbf{ 2. To Access SonarQube : pub-ip:9000}$
+$\color{green} \textbf{ 2. To Access SonarQube : pub-ip:9000}$
 
 $\color{red} \textbf{ NOTE : }$ SonarQube have by default username and password is admin.
 
 
-$\color{purple} \textbf{ 3. Generate Token in SonarQube; it will need us in jenkins }$
+$\color{green} \textbf{ 3. Generate Token in SonarQube; it will need us in jenkins }$
 - My Account  → Security → Token name  → Generate Token → Copy that Token
 
 
-$\color{purple} \textbf{ 4. Install Trivy for Scan Image}$
+$\color{green} \textbf{ 4. Install Trivy for Scan Image}$
 
 ````
 sudo apt-get install wget apt-transport-https gnupg lsb-release
@@ -61,7 +61,7 @@ echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main |
 sudo apt-get update
 sudo apt-get install trivy
 ````
-$\color{purple} \textbf{5. Scan Netflix Image}$
+$\color{green} \textbf{5. Scan Netflix Image}$
 ````
 trivy image <imageid>
 ````
@@ -95,7 +95,7 @@ Goto Manage Jenkins → Plugins → Available Plugins → Install below plugins
 3. NodeJs 
 4. Email Extension 
 
-### $\color{green} \textbf{4. Set up Plugins in Tool}$
+$\color{green} \textbf{4. Set up Plugins in Tool}$
 
 Goto Manage Jenkins → Tool → 
 - Add Node name : node16 / version : 16.16.0
