@@ -298,7 +298,7 @@ $\color{green} \textbf{3. Create a systemd unit configuration file for Node Expo
 ````
 sudo nano /etc/systemd/system/node_exporter.service
 ````
-$\color{green} \textbf{4. Add the following content to the node_exporter.service file:}$
+$\color{green} \textbf{4. Add the following content to the node-exporter.service file:}$
 ````
 [Unit]
 Description=Node Exporter
