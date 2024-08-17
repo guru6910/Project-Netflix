@@ -119,6 +119,7 @@ jenkins Dashboard → Manage jenkins → System
 - Add SonarQube installation → (sonar-scanner) → Add <pub_ip>:9000
 
 $\color{green} \textbf{ 7. Add pipeline code }$
+`pipeline`
 ````
 pipeline {
     agent any
@@ -235,6 +236,7 @@ $\color{green} \textbf{4. Create a systemd unit configuration file for Prometheu
 sudo nano /etc/systemd/system/prometheus.service
 ````
 $\color{green} \textbf{5. Add the following content to the prometheus.service file:}$
+`prometheus.service`
 ````
 [Unit]
 Description=Prometheus
@@ -299,6 +301,7 @@ $\color{green} \textbf{3. Create a systemd unit configuration file for Node Expo
 sudo nano /etc/systemd/system/node_exporter.service
 ````
 $\color{green} \textbf{4. Add the following content to the node-exporter.service file:}$
+`node_exporter.servic`
 ````
 [Unit]
 Description=Node Exporter
