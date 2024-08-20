@@ -200,6 +200,8 @@ jenkins Dashboard → Manage jenkins → Plugin → Available Plugin → install
 - Docker Pipeline
 - Docker API
 - docker-build-step
+- Prometheus metrics
+
 
 $\color{red} \textbf\{NOTE :}$ Add DockerHub Credential if You want to push Image on DockerHub Registry.
 
