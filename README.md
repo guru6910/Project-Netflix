@@ -54,7 +54,7 @@ $\color{red} \textbf{ NOTE : }$ SonarQube have by default username and password 
 
 
 $\color{green} \textbf{ 3. Generate Token in SonarQube; it will need us in jenkins }$
-- My Account  → Security → Token name  → Generate Token → Copy that Token
+- My Account  → Security → Token name  → Generate Token → user → Token Copy that Token
 
 
 $\color{green} \textbf{ 4. Install Trivy for Scan Image}$
