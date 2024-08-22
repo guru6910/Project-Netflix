@@ -118,6 +118,9 @@ jenkins Dashboard → Manage jenkins → System
 - Add jenkins installation → Add <pub_ip>:8080
 - Add SonarQube installation → (sonar-scanner) → Add <pub_ip>:9000
 
+````
+sudo chmod 777 /var/run/docker.sock
+````
 $\color{green} \textbf{ 7. Add pipeline code }$
 `pipeline`
 ````
