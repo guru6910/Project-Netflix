@@ -15,7 +15,7 @@ $\color{green} \textbf{2. Launch ec2 instance}$
 - storage : 40
 - SG : All traffic
 
-$\color{green} \textbf{3. Git Clone }
+$\color{green} \textbf{3. Git Clone }$
 ````
 git clone <repo>
 ````
