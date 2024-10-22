@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Code Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/abhipraydhoble/netflix.git'
+                git branch: 'main', url: 'https://github.com/guru6910/Project-Netflix.git'
             }
         }
         
